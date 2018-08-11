@@ -53,3 +53,27 @@ img {
   margin: 0 auto;
   padding: 0;
 }
+
+/*HEADER*/
+
+.main-header {
+  position: absolute;
+  padding: 45px 0;
+  left: 0;
+  top: 0;
+}
+
+.main-header-row {
+  display: flex;
+  justify-content: space-between;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+.header-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-transform: uppercase;
+}
