@@ -51,7 +51,8 @@ img {
 .container {
   width: 1140px;
   margin: 0 auto;
-  padding: 0;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /*HEADER*/
@@ -61,6 +62,7 @@ img {
   padding: 45px 0;
   left: 0;
   top: 0;
+  right: 0;
 }
 
 .main-header-row {
@@ -76,4 +78,105 @@ img {
   padding: 0;
   list-style: none;
   text-transform: uppercase;
+}
+
+.header-list-item {
+  padding-left: 25px;
+}
+
+.header-list a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -.25px;
+  display: block;
+  padding: 0 5px;
+  border-bottom: 4px solid rgba(0,0,0,0);
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.header-list a:hover {
+  border-bottom: 4px solid #ffffff;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.header-list .active {
+  border-bottom: 4px solid #ffffff;
+}
+
+.header-fixed {
+  position: fixed;
+  width: 100%;
+  padding: 15px 0px;
+  background: #000;
+  box-shadow: 3px 1px 0.99px 0.01px rgba(0, 0, 0, 0.05);
+  transition: all 0.4s ease;
+}
+/* BANNER*/
+.banner {
+  padding-top: 205px;
+  background-image: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.banner-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-description {
+  width: 50%;
+}
+
+.banner-description h1 {
+  margin: 40px 0 0 0;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 56px;
+  font-weight: 700;
+  font-size: 52px;
+  text-align: left;
+  color: #fff;
+  text-transform: uppercase;
+}
+.banner-description p {
+  margin: 40px 0;
+  font-family: 'helvetica_neueregular';
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.banner-btn {
+  display: inline-block;
+  vertical-align: baseline;
+  padding: 20px 34px;
+  background: #282828;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  letter-spacing: -0.25px;
+}
+
+.banner-btn:hover {
+    background: #fff;
+    color: #232323;
+    transition: all 0.5s;
+  }
+
+.banner-btn i {
+  position: relative;
+  top: 12px;
+  margin-right: 10px;
+  line-height: 10px;
 }

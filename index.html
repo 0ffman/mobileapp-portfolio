@@ -4,34 +4,40 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width initial-scale=1.0">
 	<title>Mobileapp</title>
-	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-	<header class="main-header header-fixed">
+	<header class="main-header">
 		<div class="main-header-row container">
       <a href="main-headder-logo"><img src="img/logo.png" width="211" height="55" alt="Mobileapp"></a>
       <nav class="header-navigation">
             <ul class="header-list">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Features</a></li>
-              <li><a href="#">Download</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Contact</a></li>
+              <li class="header-list-item"><a class="active" href="#">Home</a></li>
+              <li class="header-list-item"><a href="#">Features</a></li>
+              <li class="header-list-item"><a href="#">Download</a></li>
+              <li class="header-list-item"><a href="#">Blog</a></li>
+              <li class="header-list-item"><a href="#">Contact</a></li>
             </ul>
       </nav>    
     </div>
 	</header>
   <section class="banner">
-    <div class="container">
-      <div class="description">
+    <div class="banner-columns container">
+      <div class="banner-description">
         <h1>Chocolate pudding dessert jelly</h1>
         <p>Fruitcake donut gummies. Candy liquorice biscuit. Sugar plum jelly gummi bears brownie toffee cupcake caramels brownie cookie.</p>
-        <a href="#">Download on Appstore</a>
+        <a class="banner-btn" href="#"><i class="fa fa-mobile fa-3x" aria-hidden="true"></i> Download on Appstore</a>
       </div>
-      <img src="img/mobile.png" alt="Phone">
+      <img class="banner-phone" src="img/mobile.png" alt="Phone">
     </div>
   </section>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
