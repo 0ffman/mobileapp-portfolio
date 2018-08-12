@@ -6,3 +6,7 @@ $(window).scroll(function() {
         $('header').removeClass("header-fixed");
     }
 });
+
+$(document).ready(function(){
+  $('.bxslider').bxSlider();
+});
