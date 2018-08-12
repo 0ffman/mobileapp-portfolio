@@ -180,3 +180,47 @@ img {
   margin-right: 10px;
   line-height: 10px;
 }
+
+/* FEATURES*/
+.features {
+  padding: 85px 0;
+  text-align: center;
+}
+.features-heading {
+  margin: 0;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 52px;
+  line-height: 43px;
+  color: #8a8a8a;
+  text-transform: uppercase;
+}
+.features-text {
+  margin: 0;
+  font-size: 22px;
+  color: #3a3a3a;
+  padding: 40px 105px 50px;
+  line-height: 32px;
+}
+.features-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+.features-list-item {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.features-list-heading {
+  margin: 35px 0;
+  color: #1a1a1a;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.features-list-text {
+  margin: 0;
+  font-weight: 300;
+}
