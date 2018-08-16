@@ -411,8 +411,31 @@ img {
   .main-header {
     padding: 25px 0;
   }
+  .main-header-row {
+    flex-direction: column;
+    -ms-align-items: baseline;
+    align-items: baseline;
+  }
+  .media-width {
+    margin-top: 5px;
+    width: 180px;
+  }
+  .backcolor {
+    background-color: #000000;
+  }
   .header-fixed {
     padding: 10px 0;
+  }
+  .header-list-item {
+    padding: 5px 0;
+    text-align: center;
+  }
+  .header-navigation {
+    width: 100%;
+  }
+  .header-list {
+    flex-direction: column;
+    width: 100%;
   }
   .banner {
     padding-top: 105px;
@@ -505,5 +528,16 @@ img {
   .footer-list-text a {
     padding: 0 55px 20px 65px;
   }
-
+  .twitter-post {
+    padding-left: 55px;
+  }
+  .twitter-post-text {
+    padding: 0;
+  }
+  .footer-copyright {
+    font-size: 16px;
+  }
+  .about-text {
+    padding: 0;
+  }
 }
